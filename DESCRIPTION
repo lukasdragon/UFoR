@@ -5,19 +5,18 @@ Version: 0.0.0.1
 Authors@R: c(
     person(given = "Lukas G.",
            family = "Olson",
-           role = c("aut", "cre"),
+           role = c("aut"),
            email = "lukas.olson@ubc.ca"),
     person(given = "Alexander J. F.",
            family = "Martin",
            role = c("aut", "cre"),
-           email = "arbmarta@mail.ubc.ca")
-)
+           email = "arbmarta@mail.ubc.ca"))
 Maintainer: Lukas G. Olson <lukas.olson@ubc.ca>
 Description: UFoR is a comprehensive array of user-friendly tools for managing, maintaining, and analyzing urban forestry data. It includes functions for tree inventory assessment, tree planting and management, and other urban forestry and arboriculture tasks.
 License: MIT
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
 Imports: 
     stats,
     utils
