@@ -1,4 +1,6 @@
-"# The Urban Forestry Package (UFoR)
+[![R-CMD-check](https://github.com/lukasdragon/UFoR/actions/workflows/r.yml/badge.svg?branch=main)](https://github.com/lukasdragon/UFoR/actions/workflows/r.yml)
+
+# The Urban Forestry Package (UFoR)
 
 ## About
 
@@ -27,13 +29,15 @@ UFoR comes packed with a plethora of functions dedicated to urban forestry tasks
 help(package = "UFoR")
 ```
 
+Additionally, we have a [Documentation Site Go](https://lukasdragon.github.io/UFoRDocumentation/) that you can check out for additional explanations about the functions and theory behind them.
+
 ## Let's Collaborate!
 
 We encourage and value every form of contribution to UFoR. If you've identified a bug, have an idea for a feature, or simply want to help us improve UFoR, please don't hesitate to submit a pull request on GitHub. Let's work together to make UFoR better!
 
 ## Licensing
 
-UFoR is licensed under the MIT License. For more information, please refer to our LICENSE file.
+UFoR is licensed under the MIT License. For more information, please refer to our [LICENSE](https://github.com/lukasdragon/UFoR/blob/main/LICENSE) file.
 
 ## A Special Thanks 
 
