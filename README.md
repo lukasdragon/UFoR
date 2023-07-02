@@ -4,7 +4,7 @@
 
 ## About
 
-The Urban Forestry Package, or UFoR, is a revolutionary R package meticulously designed to bridge the gap between urban forestry and cutting-edge technological tools. UFoR consists of an array of functions for managing and analyzing urban tree inventories, tree planting, maintenance, and a host of other urban forestry tasks. Whether you are an arborist, an urban forester, a researcher, or a tree care professional, UFoR provides user-friendly tools to transform and streamline your urban forestry tasks.
+The Urban Forestry for R Package, or UFoR, has been meticulously designed to bridge the gap between urban forestry and cutting-edge technological tools. Whether you're an arborist, urban forester, researcher, or tree care professional, UFoR offers you user-friendly tools to transform and streamline your urban forestry tasks.
 
 ## Quick and Easy Installation
 
@@ -29,7 +29,7 @@ UFoR comes packed with a plethora of functions dedicated to urban forestry tasks
 help(package = "UFoR")
 ```
 
-Additionally, we have a [Documentation Site Go](https://lukasdragon.github.io/UFoRDocumentation/) that you can check out for additional explanations about the functions and theory behind them.
+Additionally, we have a [Documentation Site](https://lukasdragon.github.io/UFoRDocumentation/) that you can check out for additional explanations about the functions and theory behind them.
 
 ## Let's Collaborate!
 

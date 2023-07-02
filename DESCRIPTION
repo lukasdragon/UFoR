@@ -1,7 +1,27 @@
-Package: UrbanForestryTools
+Package: UFoR
 Type: Package
-Title: Tools for Urban Forestry
+Title: Urban Forestry Package
 Version: 0.0.0.1
+Authors@R: 
+    person(given = "Lukas G.",
+           family = "Olson",
+           role = c("aut", "cre"),
+           email = "lukas.olson@ubc.ca"),
+    person(given = "Alexander J. F.",
+           family = "Martin",
+           role = c("aut", "cre"),
+           email = "arbmarta@mail.ubc.ca")
+Maintainer: Lukas G. Olson <lukas.olson@ubc.ca>
+Description: UFoR is a comprehensive array of user-friendly tools for managing, maintaining, and analyzing urban forestry data. It includes functions for tree inventory assessment, tree planting and management, and other urban forestry and arboriculture tasks.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: 
+    stats,
+    utils
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+URL: https://lukasdragon.github.io/UFoRDocumentation/
+BugReports: https://github.com/lukasdragon/UFoR/issues
