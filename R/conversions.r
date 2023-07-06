@@ -1,9 +1,16 @@
+# Convert caliper measurement to diameter at breast height
+#
+# @param caliper A numeric vector of caliper measurements in inches
+# @return The corresponding diameter at breast height in centimeters
 caliper_to_diameter  <- function (caliper) {
     DBH <- caliper / pi * 2.54
   return(DBH)
 }
 
-# dbh in cm to caliper in inches
+# Convert diameter at breast height to caliper measurement
+#
+# @param diameter A numeric vector of diameter measurements in centimeters
+# @return The corresponding caliper measurement in inches
 diameter_to_caliper <- function (diameter) {
   caliper <- diameter / 2.54 * pi
   return(caliper)
@@ -12,6 +19,12 @@ diameter_to_caliper <- function (diameter) {
 # https://ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf
 # TODO: Add more gases, turn iinto a dataset
 # Global Warming Potential Values according to AR5
+
+# Convert carbon emissions to carbon dioxide equivalents
+#
+# @param carbon_emissions A numeric vector of carbon emissions in the units corresponding to the chosen gas type
+# @param gas_type A character vector of gas types corresponding to each value in `carbon_emissions`. Valid gas types are "CO2", "CH4", "N2O", "CCl3F", "CCl2F2", "CClF3", "CCl2FCClF2", "CClF2CClF2", "CClF2CF3", "CBrF3", "CBrClF2", and "CBrF2CBrF2".
+# @return The corresponding carbon dioxide equivalent emissions
 carbon_to_carbon_equivalents <- function(carbon_emissions, gas_type) {
   # Define conversion factors for different greenhouse gases
   conversion_factors <- c(
