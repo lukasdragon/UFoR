@@ -12,7 +12,7 @@ UFoR can be easily installed directly from GitHub with the help of the devtools 
 
 ```R
 install.packages("devtools")
-devtools::install_github("lukasdragon/UFoR")
+devtools::install_github("lukasgolson/UFoR")
 ```
 
 ## Getting Started with UFoR
