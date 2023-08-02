@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library(UrbanForestryTools)
+library(UFoR)
 
-test_check("UrbanForestryTools")
+test_check("UFoR")
